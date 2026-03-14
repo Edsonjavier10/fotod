@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mis fotos</title>
+
+<style>
+body{
+font-family: Arial;
+text-align:center;
+background:#111;
+color:white;
+}
+
+img{
+width:400px;
+height:300px;
+margin:70px;
+border-radius:70px;
+display:none;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+cursor:pointer;
+}
+</style>
+
+<script>
+function mostrarFoto(){
+document.getElementById("foto").style.display="block";
+}
+</script>
+
+</head>
+
+<body>
+
+<h1>Mis Fotos</h1>
+
+<button onclick="mostrarFoto()">Ver foto</button>
+
+<br><br>
+
+<img id="foto" src="C:\Users\lenovo\Downloads\MONO.jpg" style="width: 400px; height: 300px;">
+
+</body>
+</html>
